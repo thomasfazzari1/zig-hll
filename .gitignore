@@ -1,0 +1,12 @@
+zig-cache/
+zig-out/
+.zig-cache/
+build/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+.DS_Store
+.claude/
+temp/
