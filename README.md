@@ -1,8 +1,7 @@
 # Zig HyperLogLog (zig-hll)
-
 [![CI](https://github.com/thomasfazzari1/zig-hll/workflows/CI/badge.svg)](https://github.com/thomasfazzari1/zig-hll/actions)
 [![Zig](https://img.shields.io/badge/Zig-0.13.0-orange.svg)](https://ziglang.org/download/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 A fast, memory-efficient HyperLogLog cardinality estimation library for Zig.
 
@@ -17,7 +16,6 @@ A fast, memory-efficient HyperLogLog cardinality estimation library for Zig.
 ## Quick Start
 
 Add to your `build.zig.zon`:
-
 ```zig
 .dependencies = .{
     .@"zig-hll" = .{
@@ -112,7 +110,7 @@ zig build docs      # Generate documentation
 
 ## License
 
-This project is licensed under the MIT License - See [LICENSE](LICENSE) for details.
+This project is licensed under the Apache License 2.0 - See [LICENSE](LICENSE) for details.
 
 ## References
 
